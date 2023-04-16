@@ -2,7 +2,7 @@
 
 int main()
 {
-	IplImage* src = cvLoadImage("C:\\temp\\yeji.jpg");
+	IplImage* src = cvLoadImage("C:\\temp\\Lena.png");
 	CvSize size = cvGetSize(src);
 	IplImage* dst = cvCreateImage(size, 8, 3);
 	int w = size.width;
